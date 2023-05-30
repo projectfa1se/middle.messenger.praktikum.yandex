@@ -1,0 +1,23 @@
+@import url(../../index.scss);
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+    color: var(--blackText);
+    width: 20%;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
+    margin-top: 18%;
+}
+
+.error__number{
+    font-size: 60px;
+}
+
+.error__text{
+    font-size: 30px;
+    padding-bottom: 80px;
+}
+
