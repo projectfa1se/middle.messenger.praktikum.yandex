@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel --no-cache ./index.hbs",
-    "start": "node server.js"
+    "build": "parcel build ./index.hbs",
+    "start": "npm run build && node ./server.js"
   },
   "author": "Evgeniy Afanasyev",
   "license": "ISC",

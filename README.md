@@ -6,5 +6,6 @@
 Установка проекта
 
     npm install — установка зависимостей,
-    npm run dev — запуск сборки проекта,
-    npm run start — запуск express сервера
+    npm run dev - запуск для разработки
+    npm run build — запуск сборки проекта,
+    npm run start — запуск express сервера и сборк проекта
