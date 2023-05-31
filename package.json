@@ -1,11 +1,11 @@
 {
-  "name": "sprint_2",
+  "name": "sprint_1",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "layout hbs",
   "scripts": {
     "dev": "parcel --no-cache ./index.hbs",
-    "start": "node server.js"
+    "build": "parcel build ./index.hbs",
+    "start": "npm run build && node ./server.js"
   },
   "author": "Evgeniy Afanasyev",
   "license": "ISC",
