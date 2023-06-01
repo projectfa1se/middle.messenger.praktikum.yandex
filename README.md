@@ -1,4 +1,4 @@
-Ссылкы на открытый PR: 
+Ссылкы на открытый PR: https://github.com/projectfa1se/middle.messenger.praktikum.yandex/pull/7
 
 Домен: https://spiffy-palmier-fc460d.netlify.app
 
