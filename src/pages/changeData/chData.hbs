@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="chData.scss">
 </head>
 <body>
+    <main>
     <div class="wrapper">
         <div class="back-button__side">
             <img src="../../../static/icons/backbutton.svg" alt="">
@@ -19,6 +20,7 @@
                 </div>
             </div>
             <div class="data__username">Иван</div>
+            <form>
             {{> dataBox/dataBox text="Почта" name="email" placeholder="pochta@yandex.ru"}}
             {{> dataBox/dataBox text="Логин" name="login" placeholder="ivanivanov"}}
             {{> dataBox/dataBox text="Имя" name="first_name" placeholder="Иван"}}
@@ -26,7 +28,9 @@
             {{> dataBox/dataBox text="Имя в чате" name="display_name" placeholder="Иван"}}
             {{> dataBox/dataBox text="Телефон" name="phone" placeholder="+7-(909)-967-30-30"}}
             {{> button/button text="Сохранить" }}
+            </form>
         </div>
     </div>
+    </main>
 </body>
 </html>
