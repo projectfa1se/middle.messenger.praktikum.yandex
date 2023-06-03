@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="registration.scss">
+</head>
+<body>
+  <main>
+    <div class="auth__container">
+        <h2 class="auth__title">Регистрация</h2>
+        <form>
+          {{> input/input text="Почта" name="email" }}
+          {{> input/input text="Логин" name="login" }}
+          {{> input/input text="Имя" name="first_name"}}
+          {{> input/input text="Фамилия" name="second_name"}}
+          {{> input/input text="Телефон" name="phone"}}
+          {{> input/input text="Пароль" name="password"}} 
+          {{> input/input text="Пароль (ещё раз)" name="password"}}
+          {{> button/button text="Зарегистрироваться" }}
+          {{> link/link text="Войти" }}
+        </form>
+      </div>
+  </main>
+</body>
+</html>

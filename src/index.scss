@@ -1,0 +1,26 @@
+@import url(./components/components.scss);
+
+@font-face {
+    font-family: Inter;
+    src: url(../static/fonts/Inter-Medium.ttf);
+}
+
+body {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background: var(--background);
+    font-family: var(--fontFamily);
+    font-weight: 500;
+  }
+
+:root{
+    --background: #fff;
+    --blackText: #1E1E1E;
+    --grayText: #999999;
+    --darkBlue: #3369F3;
+    --redText: #FF0000;
+    --fontFamily: Inter;
+    --size: calc(1vw+1vh);
+}
+

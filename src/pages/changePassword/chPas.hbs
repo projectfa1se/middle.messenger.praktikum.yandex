@@ -1,0 +1,33 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Data</title>
+    <link rel="stylesheet" href="chPas.scss">
+</head>
+<body>
+
+    <main>
+    <div class="wrapper">
+        <div class="back-button__side">
+            <img src="../../../static/icons/backbutton.svg" alt="">
+        </div>
+        <div class="data__container">
+            <div class="data__avatar">
+                <div class="data__avatar__overlay">
+                     <div>Поменять</div>
+                     <div>аватар</div>
+                </div>
+            </div>
+            <form>
+            {{> dataBox/dataBox text="Старый пароль" name="oldPassword" placeholder="•••••••••"}}
+            {{> dataBox/dataBox text="Новый пароль" name="newPassword" placeholder="•••••••••••"}}
+            {{> dataBox/dataBox text="Повторите новый пароль" name="newPassword" placeholder="•••••••••••"}}
+            {{> button/button text="Сохранить" }}
+            </form>
+        </div>
+    </div>
+    </main>
+</body>
+</html>

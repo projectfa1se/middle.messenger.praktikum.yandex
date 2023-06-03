@@ -1,0 +1,71 @@
+@import url(../../index.scss);
+
+
+
+.auth__container {
+  font-family: var(--fontFamily);
+  margin: 2.7% auto;
+  width: 510px;
+  height: 870px;
+  padding: 75px 45px 376px 45px;
+  background: var(--background);
+  box-sizing: border-box;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
+  border-radius: 18px;
+}
+
+.auth__container .auth__title {
+  margin: 0 0 77px 115px;
+  padding: 0;
+  font-size: 30px;
+  color: var(--blackText);
+}
+
+.auth__container .user__box {
+  position: relative;
+}
+
+.auth__container .user__box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 20px;
+  color: var(--blackText);
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 2px solid var(--darkBlue);
+  outline: none;
+  background: transparent;
+}
+.auth__container .user__box label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 19px;
+  color: var(--grayText);
+  pointer-events: none;
+  transition: .5s;
+}
+
+.auth__container .user__box input:focus ~ label,
+.auth__container .user__box input:valid ~ label {
+  top: -22px;
+  left: 0;
+  font-size: 15px;
+}
+
+
+.main__link{
+    position: relative;
+    margin-left: 184px;
+    bottom: -21px;
+}
+
+.auth__container .user__box:nth-child(7){
+  margin-bottom: 35px;
+}
+
+
+
+
+
